@@ -8,8 +8,8 @@ class Booking implements Runnable{
 
     @Override
     public void run() {
-        System.out.println(this.bookingName + " Booking received");
-        System.out.println(this.bookingName + " Payment processed");
-        System.out.println(this.bookingName + " Ticket confirmed");
+        System.out.println(this.bookingName + "Booking received");
+        System.out.println(this.bookingName + "Payment processed");
+        System.out.println(this.bookingName + "Ticket confirmed");
     }
 }

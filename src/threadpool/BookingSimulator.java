@@ -9,9 +9,11 @@ public class BookingSimulator {
 
     public static void main(String[] args){
         ExecutorService pool = newFixedThreadPool(THREAD_POOL_SIZE);
+        System.out.println("Starting Booking simulator... ");
         for (int i = 0; i < NUMBER_OF_BOOKINGS; i++){
-            pool.execute(new Booking("Booking " + (i+1)));
+            pool.execute(new Booking("Booking " + (i+1) + " - "));
         }
         pool.shutdown();
+        System.out.println("Booking simulator finished.");
     }
 }
