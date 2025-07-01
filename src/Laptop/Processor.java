@@ -1,3 +1,5 @@
+package Laptop;
+
 public class Processor {
 
     int generation;

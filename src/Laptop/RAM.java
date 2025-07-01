@@ -1,3 +1,5 @@
+package Laptop;
+
 public class RAM {
 
     int size, generation;

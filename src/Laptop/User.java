@@ -1,8 +1,10 @@
+package Laptop;
+
 public class User {
 
     String user;
     Laptop laptop;
-    User(String name,Laptop laptop){
+    User(String name, Laptop laptop){
         this.user = name;
         this.laptop = laptop;
     }

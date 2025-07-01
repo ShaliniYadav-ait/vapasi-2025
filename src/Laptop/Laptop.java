@@ -1,3 +1,5 @@
+package Laptop;
+
 public class Laptop {
 
     final String logo;
