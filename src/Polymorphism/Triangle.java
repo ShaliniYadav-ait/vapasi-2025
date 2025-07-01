@@ -1,4 +1,6 @@
- class Triangle extends Shape{
+package Polymorphism;
+
+class Triangle extends Shape{
 
     double s1,s2,s3;
     Triangle(double s1,double s2,double s3){

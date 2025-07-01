@@ -1,3 +1,5 @@
+package MyArithException;
+
 class Calculator {
     double caldouble(int n) throws MyArithException{
         if (n < 0) {

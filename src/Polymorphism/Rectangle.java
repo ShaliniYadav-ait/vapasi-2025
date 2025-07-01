@@ -1,4 +1,6 @@
- class Rectangle extends Shape {
+package Polymorphism;
+
+class Rectangle extends Shape {
 
     double length, width;
     Rectangle(double len, double wid){
