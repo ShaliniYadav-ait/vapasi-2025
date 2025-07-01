@@ -13,8 +13,7 @@ public class Main {
         Processor p2 = new Processor(2, 3.2);
         RAM r2 = new RAM(6,6);
         Laptop manavLaptop = new Laptop(h2,p2,r2);
-        User manav = new User("Manav", manavLaptop);
-        return manav;
+        return new User("Manav", manavLaptop);
     }
 
     private static User rashmiLaptop() {
@@ -22,7 +21,6 @@ public class Main {
         Processor p1 = new Processor(3, 3.2);
         RAM r1 = new RAM(8,5);
         Laptop rashmiLaptop = new Laptop(h1,p1,r1);
-        User rashmi = new User("Rashmi", rashmiLaptop);
-        return rashmi;
+        return new User("Rashmi", rashmiLaptop);
     }
 }

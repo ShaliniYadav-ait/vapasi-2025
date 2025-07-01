@@ -1,4 +1,4 @@
-package myArithException;
+package arithmaticexception;
 
 class Calculator {
     double caldouble(int n) throws MyArithException{
@@ -7,8 +7,6 @@ class Calculator {
         } else if (n == 0) {
             throw new MyArithException("Age cannot be zero.");
         }
-        double newN = (double) n;
-        System.out.println("New value of n is " + newN);
-        return (newN);
+        return n;
     }
 }

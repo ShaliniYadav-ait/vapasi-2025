@@ -1,4 +1,4 @@
-package myArithException;
+package arithmaticexception;
 
 public class MyCalcApp {
     public static void main(String[] args) {
@@ -10,7 +10,8 @@ public class MyCalcApp {
 
     private static void callException(Calculator c, int n) {
         try {
-            c.caldouble(n);
+          double  convertedDouble =  c.caldouble(n);
+          System.out.println("New value of n is " + convertedDouble);
         }catch (MyArithException e){
             System.out.println("Caught invalid age exception with message - " + e.getMessage() );
         }

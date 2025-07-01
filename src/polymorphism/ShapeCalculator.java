@@ -18,7 +18,8 @@ public class ShapeCalculator {
         System.out.println("Shape is : "+  s.shape());
         System.out.println("Area is : " + s.calculateArea());
         System.out.println("Perimeter is : " + s.calculatePerimeter());
-        System.out.println(" **************************");
+        System.out.println(" ************************** ");
+        s.setDimensions(5);
     }
 
     private static void displayShapes(ArrayList<Shape> shapes) {

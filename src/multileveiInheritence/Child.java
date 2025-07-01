@@ -1,4 +1,4 @@
-package multiLevelInheritence;
+package multileveiInheritence;
 
 public class Child extends Parent {
     Child(){
@@ -9,7 +9,7 @@ public class Child extends Parent {
     Child(String name){
         this();
         System.out.println("Child is "+ name);
-        allNames();
+//        allNames();
     }
 
     String firstNameChild = "Avyukt ";

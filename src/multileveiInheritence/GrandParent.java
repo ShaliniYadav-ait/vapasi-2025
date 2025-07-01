@@ -1,4 +1,4 @@
-package multiLevelInheritence;
+package multileveiInheritence;
 
 public class GrandParent {
     GrandParent(){
