@@ -1,4 +1,6 @@
-public class Child extends Parent{
+package MultiLevelInheritence;
+
+public class Child extends Parent {
     Child(){
         super(" Shalini");
         System.out.println("******** Child Default Constructor ********");
