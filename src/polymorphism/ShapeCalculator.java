@@ -1,4 +1,4 @@
-package Polymorphism;
+package polymorphism;
 
 import java.util.ArrayList;
 

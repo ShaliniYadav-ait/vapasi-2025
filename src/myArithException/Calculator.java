@@ -1,4 +1,4 @@
-package MyArithException;
+package myArithException;
 
 class Calculator {
     double caldouble(int n) throws MyArithException{

@@ -1,4 +1,4 @@
-package MyArithException;
+package myArithException;
 
 public class MyCalcApp {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package MyArithException;
+package myArithException;
 
 class MyArithException extends RuntimeException{
     public  MyArithException(String message){

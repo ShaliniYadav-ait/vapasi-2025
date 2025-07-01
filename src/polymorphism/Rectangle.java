@@ -1,4 +1,4 @@
-package Polymorphism;
+package polymorphism;
 
 class Rectangle extends Shape {
 

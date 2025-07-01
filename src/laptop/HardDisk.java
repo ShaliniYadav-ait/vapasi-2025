@@ -1,4 +1,4 @@
-package Laptop;
+package laptop;
 
 public class HardDisk {
 
